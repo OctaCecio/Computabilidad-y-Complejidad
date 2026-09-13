@@ -1,5 +1,7 @@
-Bertrand Arthur William Russell  
-18/05/1872 - 2/02/1970   
+# Bertrand Arthur William Russell  
+(images.webp)
+18/05/1872 - 2/02/1970  
+
 Nació en Monmouthshire, Gales  
 Su aporte principal fue la paradoja de Russell  
 La descubrió en 1901 y la publicó en 1903 en su libro "Los principios de las 
