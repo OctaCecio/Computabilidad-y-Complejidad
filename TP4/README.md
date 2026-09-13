@@ -20,6 +20,6 @@ El archivo MT ejercicio 3, cambiar cantidad de a por b.jff tiene la resolución 
 
 # Comprobar si dos palabras formadas con símbolos de Σ = {0, 1, 2} son iguales. Las dos palabras están separadas por el símbolo #
 
-![Solucion](<MT Ejercicio 4.Comprobar dos palabras iguales.png>)
+![Solucion](<MT EJERCICIO 4. Comprobar dos palabras iguales.png>)
 
 El archivo MT ejercicio4, comprobar dos palabras iguales.jff tiene la resolución en Jflap.
