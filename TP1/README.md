@@ -1,5 +1,5 @@
 # Bertrand Arthur William Russell  
-!(images.webp)
+![Bertrand Russell](images.webp)
 18/05/1872 - 2/02/1970  
 
 Nació en Monmouthshire, Gales  
