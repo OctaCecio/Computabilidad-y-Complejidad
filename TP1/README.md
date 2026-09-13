@@ -4,10 +4,10 @@
 
 18/05/1872 - 2/02/1970  
 
-Nació en Monmouthshire, Gales  
-Su aporte principal fue la paradoja de Russell  
-La descubrió en 1901 y la publicó en 1903 en su libro "Los principios de las 
-matemáticas".
+Nació en Monmouthshire, Gales
+
+Su aporte principal fue la paradoja de Russell, la descubrió en 1901 y la publicó en 1903 en su libro "Los principios de las 
+matemáticas"
 
 Entre sus otros aportes, se encuentran: 
 ● Filosofía Analítica.
