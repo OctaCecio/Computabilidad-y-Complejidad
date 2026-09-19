@@ -11,10 +11,14 @@
 
 
 # MT para un lenguaje regular
-![Solución](<MT para LR.png>)
+<img width="722" height="236" alt="image" src="https://github.com/user-attachments/assets/ed9e5e85-07df-4589-8c79-883bfc843dbd" />
+
+
 
 El archivo MT para LR-jff contiene la resolución en Jflap.
 
 # MT para un lenguaje independiente del contexto
-![Solución](<MT para LIC.png>)
+<img width="1101" height="507" alt="image" src="https://github.com/user-attachments/assets/ac2b50ae-5b93-4779-8fec-9932966dd2c6" />
+
+
 El archivo MT para LIC.jff contiene la resolución en Jflap.
