@@ -30,12 +30,17 @@ El archivo MT ejercicio4, comprobar dos palabras iguales.jff tiene la resolució
 
 <img width="797" height="596" alt="MT XY dividido" src="https://github.com/user-attachments/assets/c8ebeb29-1693-4e17-8b91-8c6152de282b" />
 
+El archivo MT XY dividido.jff tiene la resolución en Jflap.
+
 # Ejercicio 11: Que recibe un número binario (cadena no vacía de 0’s y 1’s) y devuelve el siguiente número binario (es decir, le suma 1)
 
 <img width="1350" height="516" alt="Mt ejercicio 11, siguiente binario " src="https://github.com/user-attachments/assets/d06b5230-98bc-4cd3-8787-3e1aa5919ee4" />
+
+El archivo MT ejercicio 11. Siguiente binario.jff tiene la resolución en Jflap.
 
 # Ejercicio 12: Para eliminar el blanco que separa los dos argumentos x e y, moviendo los símbolos de y un lugar hacia la izquierda. Σ = {a, b}
 
 <img width="1207" height="542" alt="MT 12 eliminar blanco moviendo a la izquierda" src="https://github.com/user-attachments/assets/eeea003b-eefa-4a2d-b787-9cecbe21a03e" />
 
+El archivo MT ejercicio 12. Eliminar Blanco.jff tiene la resolución en Jflap.
 
