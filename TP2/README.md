@@ -1,5 +1,5 @@
 # Crear una Máquina de Turing que duplique unos.
 
-![Solucion](MT%20que%20duplica%201s.png)
+![Solucion](TP2.png)
 
 El archivo .jff contiene la resolución en Jflap.
