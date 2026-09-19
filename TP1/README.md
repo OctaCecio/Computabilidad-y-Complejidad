@@ -1,5 +1,5 @@
 # Bertrand Arthur William Russell  
-![Bertrand Russell](images.webp)
+<img width="624" height="491" alt="image" src="https://github.com/user-attachments/assets/68d5aadc-546e-4a34-99a0-32a2be50fdf8" />
 
 
 18/05/1872 - 2/02/1970  
