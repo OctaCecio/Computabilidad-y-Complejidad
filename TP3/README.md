@@ -10,14 +10,14 @@
 | **Condición** | Detenerse en un estado de aceptación. | Detenerse en un estado final, con el contenido esperado escrito en la cinta. |
 
 
-# MT para un lenguaje regular
+# MT para un lenguaje regular | ab*c
 <img width="722" height="236" alt="image" src="https://github.com/user-attachments/assets/ed9e5e85-07df-4589-8c79-883bfc843dbd" />
 
 
 
 El archivo MT para LR-jff contiene la resolución en Jflap.
 
-# MT para un lenguaje independiente del contexto
+# MT para un lenguaje independiente del contexto | $L = \{a^n b^n \mid n \ge 1\}$
 <img width="1101" height="507" alt="image" src="https://github.com/user-attachments/assets/ac2b50ae-5b93-4779-8fec-9932966dd2c6" />
 
 
