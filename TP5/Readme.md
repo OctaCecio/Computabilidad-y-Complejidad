@@ -84,13 +84,16 @@ La MTU se encuentra en el archivo MTU.py
 Probaremos la MT diseñada en el punto 4, que recibe una cadena binaria y retorna todos sus símbolos en 0. Su codificación es: (00,00,00,00,0) (00,01,00,00,0) (00,10,01,10,0)
 
 Cadena de entrada: 110011
+
 <img width="569" height="750" alt="image" src="https://github.com/user-attachments/assets/be274828-7ec7-4b9b-a766-90a7664b6c41" />
 
 Prueba 2: Cadena de entrada 1111
+
 <img width="496" height="561" alt="image" src="https://github.com/user-attachments/assets/c5f42f7c-3ade-4e0c-b0bb-7fbf54df2f63" />
 
 
 Prueba 3: Cadena de entrada 0000
+
 <img width="530" height="572" alt="image" src="https://github.com/user-attachments/assets/59f89ac1-0bf1-471a-add8-ad18dce31d32" />
 
 
@@ -103,7 +106,7 @@ Explicar la codificación utilizada
 		Cada regla se compone de una quíntupla (Estado_Actual, Símbolo_Leído, Nuevo_Estado, Símbolo_Escrito, Dirección).
 		Llegamos a la codificación gracias a la tabla de transiciones 
 
-		<img width="603" height="239" alt="image" src="https://github.com/user-attachments/assets/f17bfc3e-0afb-47c9-931f-e89a506ebb11" />
+<img width="603" height="239" alt="image" src="https://github.com/user-attachments/assets/f17bfc3e-0afb-47c9-931f-e89a506ebb11" />
 
 		Se codifica 1 como representante binario de la izquierda, y 0 como representante de la derecha.
 
@@ -129,18 +132,18 @@ Mostrar ejemplos de ejecución
 
 		(00,00,00,01,0) (00,01,00,00,0) (00,10,01,10,0)
 
-		<img width="551" height="751" alt="image" src="https://github.com/user-attachments/assets/9587bd0c-21eb-4887-847c-41050b03ee7c" />
+<img width="551" height="751" alt="image" src="https://github.com/user-attachments/assets/9587bd0c-21eb-4887-847c-41050b03ee7c" />
 
 
 		 MT que recibe una cadena binaria y retorna todos sus símbolos en 1:
 		
 		(00,00,00,01,0) (00,01,00,01,0) (00,10,01,10,0)
 
-		<img width="512" height="763" alt="image" src="https://github.com/user-attachments/assets/2b98bd20-bbb7-4411-a14a-be9138e552c5" />
+<img width="512" height="763" alt="image" src="https://github.com/user-attachments/assets/2b98bd20-bbb7-4411-a14a-be9138e552c5" />
 
 		Para finalizar las pruebas, realizamos el comportamiento de esta última MT, pero con una cadena no permitida.
 
-		<img width="499" height="284" alt="image" src="https://github.com/user-attachments/assets/3217610e-4818-435f-a1fa-e16d99154d38" />
+<img width="499" height="284" alt="image" src="https://github.com/user-attachments/assets/3217610e-4818-435f-a1fa-e16d99154d38" />
 
 Reflexionar sobre la relación entre la MTU y las computadoras modernas
 		
