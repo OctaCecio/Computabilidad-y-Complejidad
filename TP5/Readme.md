@@ -18,16 +18,16 @@ U(⟨M⟩,111) = MTU rechaza la cadena.
 <img width="240" height="157" alt="image" src="https://github.com/user-attachments/assets/17f281d2-cf28-4d2a-b965-9df474d356d9" />
   1. Explicar que hace M
 
-    M es una MT que procesa una cadena de dos símbolos en binario, modificando el primero por su opuesto.
+M es una MT que procesa una cadena de dos símbolos en binario, modificando el primero por su opuesto.
 
 
   2.  Explicar qué información debería recibir una MTU para poder simular M
 
-    La MTU debe recibir la codificación de M, y la cadena a analizar.
+La MTU debe recibir la codificación de M, y la cadena a analizar.
 
   3.  Codificar la cintar de MTU sabiendo que configuración de la cinta de MT M es 1 q0 0 1 1
 
-    Para la  codificación realizamos la tabla codificada de transiciones:
+Para la  codificación realizamos la tabla codificada de transiciones:
 
   <img width="554" height="154" alt="image" src="https://github.com/user-attachments/assets/cc557623-13d8-43c4-a5e2-1454e1d76fed" />
 
@@ -40,9 +40,9 @@ El estado actual se debe sacar de la secuencia, nos sirve para entender en donde
 
 ## 4. **Codificación de una máquina simple**
 
-  Definir una máquina M y codificar sus estados, símbolos y transiciones.
+Definir una máquina M y codificar sus estados, símbolos y transiciones.
 	
-	La MT M convierte toda su cinta en símbolos 0.
+La MT M convierte toda su cinta en símbolos 0.
 
   <img width="648" height="267" alt="image" src="https://github.com/user-attachments/assets/df62317a-2480-4d2c-a90a-bc617c6b163a" />
 
@@ -102,54 +102,54 @@ Prueba 3: Cadena de entrada 0000
 
 Explicar la codificación utilizada
 		
-		La codificación permite representar cualquier regla de transición de una Máquina dE Turing (MT) utilizando un alfabeto estrictamente binario. 
-		Cada regla se compone de una quíntupla (Estado_Actual, Símbolo_Leído, Nuevo_Estado, Símbolo_Escrito, Dirección).
-		Llegamos a la codificación gracias a la tabla de transiciones 
+La codificación permite representar cualquier regla de transición de una Máquina dE Turing (MT) utilizando un alfabeto estrictamente binario. 
+Cada regla se compone de una quíntupla (Estado_Actual, Símbolo_Leído, Nuevo_Estado, Símbolo_Escrito, Dirección).
+Llegamos a la codificación gracias a la tabla de transiciones 
 
 <img width="603" height="239" alt="image" src="https://github.com/user-attachments/assets/f17bfc3e-0afb-47c9-931f-e89a506ebb11" />
 
-		Se codifica 1 como representante binario de la izquierda, y 0 como representante de la derecha.
+Se codifica 1 como representante binario de la izquierda, y 0 como representante de la derecha.
 
-		Esto se entiende como que desde el estado Q0 leyendo 0, su  nuevo estado es q0, escribe 0 y se mueve a la derecha. La codificación es entonces esta misma transición representada por su contraparte binaria 		de la tabla codificada. Siendo la primera transición: 00,00,00,00,0
+Esto se entiende como que desde el estado Q0 leyendo 0, su  nuevo estado es q0, escribe 0 y se mueve a la derecha. La codificación es entonces esta misma transición representada por su contraparte binaria 		de la tabla codificada. Siendo la primera transición: 00,00,00,00,0
 		
-		En el caso de la lectura de un blanco, que indica el final, leemos que desde q0, leyendo blanco, su nuevo estado es qF, escribe blanco y se mueve a la derecha, siendo su codificación:
-		00,10,01,10,0.
+En el caso de la lectura de un blanco, que indica el final, leemos que desde q0, leyendo blanco, su nuevo estado es qF, escribe blanco y se mueve a la derecha, siendo su codificación:
+00,10,01,10,0.
 		
-		Las reglas entonces, se traducen brevemente como una serie de pasos:
-		Regla 1: Estando en 00, lee 0  pasa a 00, escribe 0, mueve 0. (00,00,00,00,0).
-		Regla 2: Estando en 00, lee 1  pasa a 00, escribe 0, mueve 0. (00,01,00,00,0).
-		Regla 3: Estando en 00, lee 10  pasa a 01, escribe 10, mueve 0. (00,10,01,10,0).
+Las reglas entonces, se traducen brevemente como una serie de pasos:
+Regla 1: Estando en 00, lee 0  pasa a 00, escribe 0, mueve 0. (00,00,00,00,0).
+Regla 2: Estando en 00, lee 1  pasa a 00, escribe 0, mueve 0. (00,01,00,00,0).
+Regla 3: Estando en 00, lee 10  pasa a 01, escribe 10, mueve 0. (00,10,01,10,0).
 		
-		Es por eso que la codificación de todas sus transiciones es la siguiente:
+Es por eso que la codificación de todas sus transiciones es la siguiente:
 		
-		(00,00,00,00,0) (00,01,00,00,0) (00,10,01,10,0)
+(00,00,00,00,0) (00,01,00,00,0) (00,10,01,10,0)
 
 		
 Mostrar ejemplos de ejecución
 
-		Se utilizó inteligencia artificial para codificar dos nuevas MT que respeten nuestras restricciones de diseño (alfabeto 0 y 1, movimientos solo L y R)
-		MT que invierte : Convierte los 0 en 1 y los 1 en 0.
+Se utilizó inteligencia artificial para codificar dos nuevas MT que respeten nuestras restricciones de diseño (alfabeto 0 y 1, movimientos solo L y R)
+MT que invierte : Convierte los 0 en 1 y los 1 en 0.
 
-		(00,00,00,01,0) (00,01,00,00,0) (00,10,01,10,0)
+(00,00,00,01,0) (00,01,00,00,0) (00,10,01,10,0)
 
 <img width="551" height="751" alt="image" src="https://github.com/user-attachments/assets/9587bd0c-21eb-4887-847c-41050b03ee7c" />
 
 
-		 MT que recibe una cadena binaria y retorna todos sus símbolos en 1:
+MT que recibe una cadena binaria y retorna todos sus símbolos en 1:
 		
-		(00,00,00,01,0) (00,01,00,01,0) (00,10,01,10,0)
+(00,00,00,01,0) (00,01,00,01,0) (00,10,01,10,0)
 
 <img width="512" height="763" alt="image" src="https://github.com/user-attachments/assets/2b98bd20-bbb7-4411-a14a-be9138e552c5" />
 
-		Para finalizar las pruebas, realizamos el comportamiento de esta última MT, pero con una cadena no permitida.
+Para finalizar las pruebas, realizamos el comportamiento de esta última MT, pero con una cadena no permitida.
 
 <img width="499" height="284" alt="image" src="https://github.com/user-attachments/assets/3217610e-4818-435f-a1fa-e16d99154d38" />
 
 Reflexionar sobre la relación entre la MTU y las computadoras modernas
 		
-		Como reflexión inicial entre la MTU y la computación moderna, es imposible no hacer referencia a la idea de lo que sucede “detrás de escenas”, en donde en nuestra MTU, podemos codificar distintos estados, 		símbolos y movimientos en transiciones representadas de manera binaria, al igual que hoy en día, toda la información se procesa en este mismo sistema numérico y permite, en procesadores de 64 bits, 				representar más de 18 trillones de direcciones únicas de memoria.
+Como reflexión inicial entre la MTU y la computación moderna, es imposible no hacer referencia a la idea de lo que sucede “detrás de escenas”, en donde en nuestra MTU, podemos codificar distintos estados, 		símbolos y movimientos en transiciones representadas de manera binaria, al igual que hoy en día, toda la información se procesa en este mismo sistema numérico y permite, en procesadores de 64 bits, 				representar más de 18 trillones de direcciones únicas de memoria.
 
-		Independientemente de la idea de “múltiples acciones codificadas en binario”, hay una comparación entre hardware y software que Turing representó mucho antes en la cinta codificada. Se trata de la 				distinción entre la máquina física y las reglas del programa, ya que anteriormente para ejecutar distintas reglas se necesitaba una máquina diferente, y con la implementación de la MTU, se demostró que una 		misma máquina física era capaz de comportarse como otras, permitiendo que hoy se entienda a gran escala a la MTU como un procesador, la cinta como memoria RAM, y la codificación de las transiciones, y la MT 		de entrada, como el software a ejecutar.
+Independientemente de la idea de “múltiples acciones codificadas en binario”, hay una comparación entre hardware y software que Turing representó mucho antes en la cinta codificada. Se trata de la 				distinción entre la máquina física y las reglas del programa, ya que anteriormente para ejecutar distintas reglas se necesitaba una máquina diferente, y con la implementación de la MTU, se demostró que una 		misma máquina física era capaz de comportarse como otras, permitiendo que hoy se entienda a gran escala a la MTU como un procesador, la cinta como memoria RAM, y la codificación de las transiciones, y la MT 		de entrada, como el software a ejecutar.
 
 
 
