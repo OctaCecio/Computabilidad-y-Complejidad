@@ -97,7 +97,7 @@ Prueba 3: Cadena de entrada 0000
 
 ## 6. **Informe final**
 
-	1.	Explicar la codificación utilizada
+Explicar la codificación utilizada
 		
 		La codificación permite representar cualquier regla de transición de una Máquina dE Turing (MT) utilizando un alfabeto estrictamente binario. 
 		Cada regla se compone de una quíntupla (Estado_Actual, Símbolo_Leído, Nuevo_Estado, Símbolo_Escrito, Dirección).
@@ -122,7 +122,7 @@ Prueba 3: Cadena de entrada 0000
 		(00,00,00,00,0) (00,01,00,00,0) (00,10,01,10,0)
 
 		
-	2.	Mostrar ejemplos de ejecución
+Mostrar ejemplos de ejecución
 
 		Se utilizó inteligencia artificial para codificar dos nuevas MT que respeten nuestras restricciones de diseño (alfabeto 0 y 1, movimientos solo L y R)
 		MT que invierte : Convierte los 0 en 1 y los 1 en 0.
@@ -142,7 +142,7 @@ Prueba 3: Cadena de entrada 0000
 
 		<img width="499" height="284" alt="image" src="https://github.com/user-attachments/assets/3217610e-4818-435f-a1fa-e16d99154d38" />
 
-	3.	Reflexionar sobre la relación entre la MTU y las computadoras modernas
+Reflexionar sobre la relación entre la MTU y las computadoras modernas
 		
 		Como reflexión inicial entre la MTU y la computación moderna, es imposible no hacer referencia a la idea de lo que sucede “detrás de escenas”, en donde en nuestra MTU, podemos codificar distintos estados, 		símbolos y movimientos en transiciones representadas de manera binaria, al igual que hoy en día, toda la información se procesa en este mismo sistema numérico y permite, en procesadores de 64 bits, 				representar más de 18 trillones de direcciones únicas de memoria.
 
