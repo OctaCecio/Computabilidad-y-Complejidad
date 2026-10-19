@@ -9,3 +9,4 @@ A continuación se encuentran los distintos trabajos prácticos de la materia:
 | **TP 3** |[Máquina de Turing para LR y LIC](./TP3/) |
 | **TP 4** |[Ejercicios MTc](./TP4/) |
 | **TP 5** |[Ejercicios MTU](./TP5/) |
+| **TP 6** |[Problema de Correspondencia de Post (PCP)](./TP6/) |
